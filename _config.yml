@@ -47,6 +47,7 @@ include:
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-toc
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -57,7 +58,7 @@ plugins:
 author:
   name   : "Mio Touyama"
   avatar : "/assets/images/avatar.jpg"
-  bio    : "Virtual Institute of Theoretical Chemistry."
+  bio    : #"Virtual Institute of Theoretical Chemistry."
   links:
 #    - label: "Website"
 #      icon: "fas fa-fw fa-link"
@@ -110,3 +111,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+  
+toc:
+  min_lelve: 2
+  floating: true
+ 
